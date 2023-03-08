@@ -1,16 +1,45 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-Regular.ttf);
+  }
+  
+  h1 {
+    font-family: Orbitron;
+  }
+
+
 body{
-    font-family: 'Verdana';
+    font-family: 'Source Sans Pro';
+}
+
+h2{
+    color: greenyellow;
+    font-family: 'Source Sans Pro';
 }
 section{
-    background-color: aquamarine;
+    background-color: #EDECEA;
 }
+
+.subtitulo2{
+    color:#333333;
+    padding: 3rem;
+}
+
+
 .subtitulo{
-    color:blue;
+    color:#333333;
     padding: 2rem;
 }
+
 #hero{
-    background-color: black;
+    background-color: #333333;
     color: white;
     padding: 3rem;
-    font-family: 'Courier New';
+    font-family: 'Source Sans Pro';
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }

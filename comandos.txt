@@ -1,0 +1,20 @@
+#Comandos Git 
+
+##Clonar Rep. (Solo una vez)
+git clone git@github.com:stefanocasafranca/Mi_Portafolio_2023.git
+
+## Ubicar la carpeta Main
+cd nombre_directorio
+--------------------------------------------------------------------------
+##Jalar Cambios
+git pull
+
+## Preparar Cambios
+git add . 
+
+## Empaquetar Cambios
+git commit -m "Comentarios"
+
+## Subir Cambios 
+git push
+
