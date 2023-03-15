@@ -1,20 +1,27 @@
-@font-face {
-    font-family: Orbitron;
-    src: url(Orbitron-Regular.ttf);
-  }
+*{
+    border: 1px solid;
+    margin: 0px;
+    
+}
   
   h1 {
-    font-family: Orbitron;
+    text-decoration: solid;
+    letter-spacing: 5px;
   }
 
 
-body{
+  h1,h2 {
+    font-family: Montserrat;
+  }
+
+
+ body{
     font-family: 'Source Sans Pro';
 }
 
 h2{
     color: greenyellow;
-    font-family: 'Source Sans Pro';
+    /*font-family: 'Source Sans Pro';*/
 }
 section{
     background-color: #EDECEA;
@@ -43,3 +50,7 @@ section{
     text-align: center;
     color: white;
   }
+
+
+
+ 
